@@ -1,0 +1,36 @@
+### ALGORITHM ###
+
+Step 1: Start the program.
+Step 2: Take the total number of players n as input from the user.
+Step 3: Start a for loop that runs n times to process each player's data.
+Step 4: Inside the loop, take inputs for runs, balls faced, 4s, 6s, wickets, runs conceded, overs, and catches.
+Step 5: Calculate the strike rate using the formula (runs / balls) * 100.
+Step 6: Calculate the bowling economy using the formula runs_conceded / overs.
+Step 7: Use if-elif-else statements to check the batting performance based on runs and strike rate.
+Step 8: Use if-elif-else statements to check the bowling performance based on wickets and economy.
+Step 9: Check the fielding performance based on the number of catches taken.
+Step 10: Determine the overall all-rounder status by checking the combined batting and bowling results.
+Step 11: Print the calculated strike rate, economy, and all the performance categories for the player.
+Step 12: Stop the program.
+
+
+### OUTPUT ###
+
+Enter the number of players: 1
+
+Player 1
+Enter the runs scored: 65
+Enter the number of balls faced: 45
+Enter the number of 4s scored: 6
+Enter the number of 6s scored: 2
+Enter the number of wickets taken: 3
+Enter the number of runs conceded: 16
+Enter the number of overs bowled: 4
+Enter the number of catches taken: 2
+
+Strike Rate: 144.44444444444443
+Economy: 4.0
+Batting: Excellent Batter
+Bowling: Excellent Bowler
+Fielding: Outstanding Fielder
+Overall: Star All-Rounder

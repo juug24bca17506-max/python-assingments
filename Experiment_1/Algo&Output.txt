@@ -1,0 +1,40 @@
+### Algorithm ###
+
+Step 1: Start the program.
+Step 2: Initialize two integer variables, a with the value 208 and b with the value 600.
+Step 3: Calculate and print the boolean results (True or False) of various algebraic identities (like squares and cubes) to verify equation assignment operators.
+Step 4: Calculate and print the boolean results of different bitwise operations (AND &, OR |, XOR ^) to demonstrate their mathematical relationships.
+Step 5: Verify and print the boolean results of addition operations using their bitwise equivalents.
+Step 6: Verify and print the boolean results of subtraction operations using their bitwise equivalents.
+Step 7: Stop the program.
+
+
+
+### OUTPUT ###
+
+Equation Assignment Operators :
+
+True
+True
+False
+True
+True
+
+Bitwise Operations:
+
+True
+True
+True
+True
+
+Addition:
+
+True
+True
+
+Subtraction:
+
+True
+True
+True
+True

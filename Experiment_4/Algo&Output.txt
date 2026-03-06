@@ -1,0 +1,38 @@
+### ALGORITHM ###
+
+Step 1: Start the program.
+Step 2: Create a list a with initial elements [10, 20, 30, 40] and print it.
+Step 3: Add the element 50 to the end of the list using append().
+Step 4: Add multiple elements [60, 70] to the end of the list using extend().
+Step 5: Insert the value 15 at index position 1 using insert().
+Step 6: Remove the first occurrence of the value 30 from the list using remove().
+Step 7: Remove and print the last element of the list using pop().
+Step 8: Find and print the index position of the value 40.
+Step 9: Count and print how many times the value 20 appears in the list.
+Step 10: Sort the list in ascending order using sort().
+Step 11: Reverse the order of the list using reverse().
+Step 12: Create a copy of the list and store it in a new variable b.
+Step 13: Calculate and print the length, maximum value, minimum value, and sum of the elements in the list.
+Step 14: Empty the list entirely using clear() and print the empty list.
+Step 15: Stop the program.
+
+
+### OUTPUT ###
+
+Original list: [10, 20, 30, 40]
+After append: [10, 20, 30, 40, 50]
+After extend: [10, 20, 30, 40, 50, 60, 70]
+After insert: [10, 15, 20, 30, 40, 50, 60, 70]
+After remove: [10, 15, 20, 40, 50, 60, 70]
+Popped element: 70
+After pop: [10, 15, 20, 40, 50, 60]
+Index of 40: 3
+Count of 20: 1
+After sort: [10, 15, 20, 40, 50, 60]
+After reverse: [60, 50, 40, 20, 15, 10]
+Copied list: [60, 50, 40, 20, 15, 10]
+Length: 6
+Max: 60
+Min: 10
+Sum: 195
+After clear: []

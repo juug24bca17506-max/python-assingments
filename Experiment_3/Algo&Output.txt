@@ -1,0 +1,29 @@
+### ALGORITHM ###
+
+Step 1: Start the program.
+Step 2: Prompt the user to enter a string and store it in the variable s.
+Step 3: Find and print the index position of the first occurrence of the letter 'a'.
+Step 4: Replace all occurrences of the letter 'a' with '@' and print the modified string.
+Step 5: Split the string into a list of separate words and print the list.
+Step 6: Check if the letter 'z' is absent from the string and print the True/False result.
+Step 7: Convert the entire string to uppercase and print it.
+Step 8: Convert the entire string to lowercase and print it.
+Step 9: Capitalize the first letter of the string and print the result.
+Step 10: Reverse the entire string using negative slicing ([::-1]) and print it.
+Step 11: Print the first character (s[0]) and the last character (s[-1]) of the string.
+Step 12: Stop the program.
+
+
+### OUTPUT ###
+
+Enter a string: apple and banana
+Position of 'a': 0
+Replace 'a' with '@': @pple @nd b@n@n@
+Split words: ['apple', 'and', 'banana']
+'z' not in string: True
+Uppercase: APPLE AND BANANA
+Lowercase: apple and banana
+Capitalize: Apple and banana
+Reverse string: ananab dna elppa
+First character: a
+Last character: a

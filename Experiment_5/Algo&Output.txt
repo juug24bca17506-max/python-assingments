@@ -1,0 +1,30 @@
+### ALGORITHM ###
+
+Step 1: Start the program.
+Step 2: Create a tuple with the values (10, 20, 30, 40, 20, 50) and print it.
+Step 3: Calculate and print the total number of elements in the tuple using len().
+Step 4: Count and print how many times the value 20 appears using count().
+Step 5: Find and print the index position of the first occurrence of the value 30 using index().
+Step 6: Calculate and print the maximum value, minimum value, and the sum of all elements in the tuple.
+Step 7: Sort the elements in ascending order using sorted() and print the resulting list.
+Step 8: Create a separate list [100, 200, 300], convert it into a tuple using tuple(), and print it.
+Step 9: Create a tuple with boolean/integer values (0, False, 1).
+Step 10: Use any() to check if at least one element is True, and all() to check if every element is True, then print both results.
+Step 11: Stop the program.
+
+
+
+### OUTPUT ###
+
+--- EXTENDED TUPLE DEMONSTRATION ---
+Original Tuple: (10, 20, 30, 40, 20, 50)
+Length of the tuple: 6
+Number of times '20' appears: 2
+Index of the first '30': 2
+Maximum value: 50
+Minimum value: 10
+Sum of all elements: 170
+Sorted elements (returns a list): [10, 20, 20, 30, 40, 50]
+Converted from list: (100, 200, 300)
+Any true element in (0, False, 1)?: True
+All true elements in (0, False, 1)?: False

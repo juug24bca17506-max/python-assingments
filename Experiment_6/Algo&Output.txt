@@ -1,0 +1,30 @@
+### ALGORITHM ###
+
+Step 1: Start the program.
+Step 2: Create a dictionary named student containing key-value pairs for name, age, major, and GPA, then print it.
+Step 3: Access and print the student's name directly using its key.
+Step 4: Use the get() method to retrieve the GPA and safely check for a non-existent key (graduation_year) by providing a default message.
+Step 5: Add a new key for the graduation year, update the existing GPA value, and print the updated dictionary.
+Step 6: Use the update() method to simultaneously modify the age and add a new honors status, then print the dictionary.
+Step 7: Extract and print all the keys (keys()), all the values (values()), and all the key-value pairs (items()) from the dictionary.
+Step 8: Remove the "major" key-value pair using the pop() method and print the removed value.
+Step 9: Remove the last inserted key-value pair using the popitem() method and print the removed item.
+Step 10: Empty the entire dictionary using the clear() method and print the resulting empty dictionary.
+Step 11: Stop the program.
+
+
+### OUTPUT ###
+
+--- DICTIONARY DEMONSTRATION ---
+Original Dictionary: {'name': 'Alice', 'age': 22, 'major': 'Computer Science', 'gpa': 3.8}
+Student's Name: Alice
+Student's GPA using get(): 3.8
+Missing key using get(): Not Specified
+After adding/updating: {'name': 'Alice', 'age': 22, 'major': 'Computer Science', 'gpa': 3.9, 'graduation_year': 2026}
+After update() method: {'name': 'Alice', 'age': 23, 'major': 'Computer Science', 'gpa': 3.9, 'graduation_year': 2026, 'honors': True}
+Dictionary Keys: dict_keys(['name', 'age', 'major', 'gpa', 'graduation_year', 'honors'])
+Dictionary Values: dict_values(['Alice', 23, 'Computer Science', 3.9, 2026, True])
+Dictionary Items: dict_items([('name', 'Alice'), ('age', 23), ('major', 'Computer Science'), ('gpa', 3.9), ('graduation_year', 2026), ('honors', True)])
+Removed Major: Computer Science
+Removed last item: ('honors', True)
+Dictionary after clear(): {}
