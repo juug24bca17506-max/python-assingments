@@ -16,6 +16,9 @@ Here are the details of the experiments currently uploaded in this repository:
 * **Experiment 8:**Implement the ‘re’ module in Python.
 * **Experiment 9:** A: Write a program to implement NumPy and Pandas packages.
 B: Write a program to implement Matplotlib and Pandas libraries in Python.
+Experiment 10:
+A: Write a program to load, clean, and explore data using Python.
+B: Write a program to implement various types of data visualization in Python.
 
 ## 🚀 How to Run the Files
 
