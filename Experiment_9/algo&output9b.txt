@@ -1,0 +1,7 @@
+ALgorithm
+
+Step 1: Start. Step 2: Import the pandas and matplotlib.pyplot libraries. Step 3: Initialize a dictionary containing a list of 10 student names and a corresponding list of their total marks. Step 4: Convert this dictionary into a Pandas DataFrame to organize the data into a tabular format. Step 5: Create a new plot figure and set its dimensions to 10x6 inches. Step 6: Generate a Bar Chart using the student names from the DataFrame for the X-axis and their total marks for the Y-axis. Step 7: Set the bar color to sky blue and the edge color to black. Step 8: Add a title to the chart and label both the X-axis and the Y-axis. Step 9: Rotate the X-axis tick labels (the student names) by 45 degrees so they do not overlap each other. Step 10: Apply the tight_layout() function to adjust the spacing and prevent the labels from getting cut off. Step 11: Display the final graphical chart to the screen using the show() function. Step 12: Stop.
+
+Output:
+
+

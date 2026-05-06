@@ -1,0 +1,38 @@
+ALgorithm 
+
+Step 1: Start.
+Step 2: Import the pandas and numpy libraries.
+Step 3: Generate a sequence of USN numbers (from 101 to 110) using NumPy's arange() function.
+Step 4: Initialize NumPy arrays to store 10 student names, their marks for Python, and their marks for DBMS.
+Step 5: Calculate the total marks for each student by adding the Python and DBMS marks arrays together using the np.add() function.
+Step 6: Calculate the percentage for each student by dividing their total marks by 200 and multiplying by 100.
+Step 7: Create a dictionary structure to group the USNs, names, individual subject marks, total marks, and percentages together.
+Step 8: Convert this dictionary into a Pandas DataFrame to organize the data into a 2D table format.
+Step 9: Create a new column named "Result_Status" using NumPy's where() function, assigning "Pass" if the percentage is 40 or above, and "Fail" otherwise.
+Step 10: Create another new column named "Bonus_Total" by adding 5 marks to the existing "Total_Marks" column for every student.
+Step 11: Print the complete DataFrame showing all student academic data.
+Step 12: Calculate and print the class average (mean) specifically for the Python marks, DBMS marks, total marks, and percentage columns.
+Step 13: Stop.
+
+
+Output: 
+
+Student Academic Data:
+   USN Student_Name  Python_Marks  DBMS_Marks  Total_Marks  Percentage Result_Status  Bonus_Total
+0  101        Ranga            85          80          165        82.5          Pass          170
+1  102      Vaibhav            78          82          160        80.0          Pass          165
+2  103    Prabhakar            92          89          181        90.5          Pass          186
+3  104       Anusha            65          70          135        67.5          Pass          140
+4  105    Yashwanth            88          85          173        86.5          Pass          178
+5  106          Sai            74          76          150        75.0          Pass          155
+6  107        Aditi            90          91          181        90.5          Pass          186
+7  108        Pooja            82          84          166        83.0          Pass          171
+8  109       Vikram            95          96          191        95.5          Pass          196
+9  110         Neha            70          75          145        72.5          Pass          150
+
+Class Average Data:
+Python_Marks     81.90
+DBMS_Marks       82.80
+Total_Marks     164.70
+Percentage       82.35
+dtype: float64

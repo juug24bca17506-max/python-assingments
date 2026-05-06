@@ -1,0 +1,29 @@
+Algorithm
+
+Step 1: Start.
+Step 2: Import the regular expression module (re).
+Step 3: Initialize a string and use re.match() to check if it starts with the word "Hello". Print the matched result.
+Step 4: Initialize a new string and use re.search() to find the first occurrence of the word "Python" anywhere in the text. Print the result.
+Step 5: Create a string containing numbers and words. Use re.findall() with the \d+ pattern to extract all the numbers into a list, then print the list.
+Step 6: Create another string with numbers and use re.finditer() to locate them. Loop through the matches to print each number along with its starting index position.
+Step 7: Initialize a string containing a phone number and use re.sub() to replace all numeric digits (\d) with a * symbol. Print the hidden string.
+Step 8: Initialize a sentence and use re.split() with a space pattern (\s) to break the sentence into a list of individual words. Print the resulting list.
+Step 9: Prompt the user to enter a date in the format dd/mm/yyyy and store it in a variable.
+Step 10: Define a strict regular expression pattern for the date (^\d{2}/\d{2}/\d{4}$).
+Step 11: Use re.fullmatch() to check if the user's input exactly matches the defined pattern.
+Step 12: If it is an exact match, print "valid date format". Else, print "invalid".
+Step 13: Stop.
+
+Output:
+
+match(): Hello
+search(): Python
+findall(): ['12', '45', '78']
+finditer():
+20 at position 5
+30 at position 9
+40 at position 13
+sub(): My number is *****
+split(): ['Split', 'this', 'sentence', 'into', 'words']
+enter a date (dd/mm/yyyy):19/05/2020
+vaild date format

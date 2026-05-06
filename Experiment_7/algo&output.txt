@@ -1,0 +1,28 @@
+Algorithm
+
+Step 1: Start.
+Step 2: Define a base class called Vehicle with an initialization method to set the vehicle's name and a basic start() method.
+Step 3: Create a Car class that inherits from Vehicle and overrides the start() method to print that the car starts with a key.
+Step 4: Create an ElectricCar class that inherits from Car (Multilevel Inheritance) and add a new method called charge().
+Step 5: Create two independent classes, GPS and MusicSystem, with their own simple methods to print location tracking and playing music.
+Step 6: Create a SmartCar class that inherits from both GPS and MusicSystem (Multiple Inheritance) and add a feature method.
+Step 7: Create Bike and Truck classes that both inherit directly from Vehicle (Hierarchical Inheritance) and give them their own custom start() methods.
+Step 8: Create a HybridCar class that inherits from both Car and GPS (Hybrid Inheritance) and add a features method.
+Step 9: Create objects for each of these classes and pass sample names to them (e.g., Honda, Tesla, Yamaha, Volvo, Toyota).
+Step 10: Call the respective methods (start(), charge(), location(), play_music(), features()) using these objects to display the output.
+Step 11: Stop.
+
+
+Output:
+
+Honda car starts with key
+Tesla car starts with key
+Tesla is charging
+Yamaha bike starts with kick
+Volvo truck starts with button
+Tracking location
+Playing music
+Smart car has GPS and Music System
+Toyota car starts with key
+Tracking location
+Toyota has hybrid features
