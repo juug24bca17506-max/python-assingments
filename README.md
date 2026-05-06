@@ -12,6 +12,10 @@ Here are the details of the experiments currently uploaded in this repository:
 * **Experiment 4:** Write a program to demonstrate list & related functions in Python.
 * **Experiment 5:** Write a program to demonstrate tuple & related functions in Python.
 * **Experiment 6:** Write a program to demonstrate Dictionary & related functions in Python.
+* **Experiment 7:** Demonstrate use of object-oriented programming concepts.
+* **Experiment 8:**Implement the ‘re’ module in Python.
+* **Experiment 9:** A: Write a program to implement NumPy and Pandas packages.
+B: Write a program to implement Matplotlib and Pandas libraries in Python.
 
 ## 🚀 How to Run the Files
 
